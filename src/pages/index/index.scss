@@ -1,0 +1,12 @@
+.index {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  .camera_button {
+    width: 90%;
+    margin-top: 2.5%;
+    background-color: #00CED1;
+    color: #fff;
+  }
+}
