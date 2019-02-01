@@ -7,11 +7,12 @@
 
 厚颜无耻的贴个二维码，使用之前请先开启手机定位，不然报错，额，暂时只能做个提醒临时处理了，毕竟处于学习阶段，有些东西自己还没摸透。
 
-<img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/erweima.png" style="width:200px;height:200px;margin: 0 auto 15px;display:block;">
+<img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/erweima.png" alt="icon"  width="200" height="200" align="center">
 
 功能很简单，在获取相应权限后点击拍照按钮会生成一张带有自己头像和当天天气水印的照片并保存到本地。
 
-<img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/2.jpg" style="width: 200px;height:400px;"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/1.jpg" style="width: 200px;height:400px;"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/3.jpg" style="width: 200px;height:400px;"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/4.jpg" style="width: 200px;height:400px;"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/5.jpg" style="width: 200px;height:400px;"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/6.jpg" style="width: 200px;height:400px;">
+<img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/2.jpg" width="200" height="400"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/1.jpg" width="200" height="400"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/3.jpg" width="200" height="400">
+<img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/4.jpg" width="200" height="400"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/5.jpg" width="200" height="400"><img src="https://raw.githubusercontent.com/cshenger/all_image_demo_package/master/images/weather_qianqian/6.jpg" width="200" height="400">
 
 介绍就到此结束，后面写一点我初学小程序和taro的一些心得笔记吧。我尽量精简。
 
