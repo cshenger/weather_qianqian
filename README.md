@@ -42,7 +42,7 @@ const weatherStore = observable({
   },
 })
 ```
-在首页里，我们在写好的组件上注入自己写的==store==，添加mobx的==observer==监听，就实现了mobx的发布订阅功能调用事先设置好的方法就可以了。这里也就是mobx的大体流程，store（我这里叫weatherStore）定义数据方法，通过方法触发行为，也就是我这里的setImgSrc等，最后，利用observer监听事件触发实现数据的更新。关于mobx的更多内容，查看[官网](https://cn.mobx.js.org/)了解了解就好了。
+在首页里，我们在写好的组件上注入自己写的**store**，添加mobx的**observer**监听，就实现了mobx的发布订阅功能调用事先设置好的方法就可以了。这里也就是mobx的大体流程，store（我这里叫weatherStore）定义数据方法，通过方法触发行为，也就是我这里的setImgSrc等，最后，利用observer监听事件触发实现数据的更新。关于mobx的更多内容，查看[官网](https://cn.mobx.js.org/)了解了解就好了。
 ![Mobx流程图](https://cn.mobx.js.org/flow.png)
 ```javascript
 @inject('weatherStore')
@@ -223,10 +223,10 @@ await Taro.request({
 ```
 
 ## Taro的一个问题
-小程序的代码是通过==npm run dev:weapp==实时生成的，但是每次生成之后会覆盖原先小程序app.json中的permission导致之前设置的permission丢失这也是我后来提交代码审核发现的。所以只能每次生成之后再手动把permission添加进去，目前我还没找到解决办法不知道Taro官方文档是不是有关这个问题的解释，后续再看看吧。
+小程序的代码是通过**npm run dev:weapp**实时生成的，但是每次生成之后会覆盖原先小程序app.json中的permission导致之前设置的permission丢失这也是我后来提交代码审核发现的。所以只能每次生成之后再手动把permission添加进去，目前我还没找到解决办法不知道Taro官方文档是不是有关这个问题的解释，后续再看看吧。
 
 ## 其他
-开发的时候在做canvas生成并保存图片的操作有时候总是会发现设置的样式没能生效，后来查了下网上的说法是小程序的==draw==之后就回调有一定概率在canvas没有完全绘制完成就生成图片了，解决的办法是最传统的setTimeout大发。恩，先这样吧。
+开发的时候在做canvas生成并保存图片的操作有时候总是会发现设置的样式没能生效，后来查了下网上的说法是小程序的**draw**之后就回调有一定概率在canvas没有完全绘制完成就生成图片了，解决的办法是最传统的setTimeout大发。恩，先这样吧。
 ```javascript
 ctx.draw(true, () => {
   setTimeout(() => {
